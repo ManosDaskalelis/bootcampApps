@@ -1,7 +1,7 @@
 package gr.aueb.cf.ch4;
 
 /**
- * Εμφανίζει όλα τα emojis στο range
+ * Εμφανίζει  τα emojis στο range
  * U+1F600 - U+1F64F
  */
 public class EmojisApp {
