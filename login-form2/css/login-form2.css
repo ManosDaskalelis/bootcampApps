@@ -1,0 +1,96 @@
+*, *::before, *::after {
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;   
+}
+
+.outer{
+    width: 580px;
+    margin: 10px auto;
+    padding: 20px;
+    text-align: start;
+    background-color: #851b1a;
+}
+
+.login-text {
+    font-size: 20px;
+}
+
+.middle {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    background-color: #fff;
+    border-radius: 15px;
+    border: 5px solid #3881ba;
+    min-height: 400px;
+    outline: 2px solid #3881ba;
+    outline-offset: -2px;
+    padding-left: 7%;
+}
+
+.top-gap {
+    margin-top: 15px;
+}
+
+.pad-y {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.form__input {
+
+   padding:20px 100px;
+   border-radius: 10px;
+   font-size: 15px;
+}
+
+.form__input-email--icon {
+    padding-left: 35px;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M406.5 399.6C387.4 352.9 341.5 320 288 320H224c-53.5 0-99.4 32.9-118.5 79.6C69.9 362.2 48 311.7 48 256C48 141.1 141.1 48 256 48s208 93.1 208 208c0 55.7-21.9 106.2-57.5 143.6zm-40.1 32.7C334.4 452.4 296.6 464 256 464s-78.4-11.6-110.5-31.7c7.3-36.7 39.7-64.3 78.5-64.3h64c38.8 0 71.2 27.6 78.5 64.3zM256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zm0-272a40 40 0 1 1 0-80 40 40 0 1 1 0 80zm-88-40a88 88 0 1 0 176 0 88 88 0 1 0 -176 0z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: 5px 50%;
+    background-origin:padding-box;
+    background-size: 33px;
+    padding-left: 12%;
+}
+
+.form__input-password--icon{
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M144 144v48H304V144c0-44.2-35.8-80-80-80s-80 35.8-80 80zM80 192V144C80 64.5 144.5 0 224 0s144 64.5 144 144v48h16c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V256c0-35.3 28.7-64 64-64H80z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: 5px 50%;
+    background-origin: padding-box;
+    background-size: 33px;
+    padding-left: 12%;
+}
+
+.form__btn {
+    display: inline-block;
+    width: 65%;
+    height: 55px;
+    border-radius: 10px;
+    background-color: #8fcfec;
+}
+
+.form__btn:hover {
+    background-color: #8fceecaf;
+}
+
+.form__btn:active {
+    background-color: #1ea4e2;
+     box-shadow: 0 5px #666;
+     transform: translateY(4px);
+}
+
+input[type="password"]:valid + span::after {
+    content: '\2713';
+    font-size: 30px;
+    color: green;
+    margin-left: 10px;
+    position: absolute;
+    margin-top: 10px
+}
+
+input[type="password"]:active {
+    background-color: #fff;
+}
