@@ -23,6 +23,5 @@ public class SelectionSort {
             arr[i] = arr[minPosition];
             arr[minPosition] = tmp;
         }
-
     }
 }

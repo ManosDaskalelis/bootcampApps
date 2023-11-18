@@ -3,12 +3,18 @@ package gr.aueb.cf.ch6;
 public class ArrayCopy {
 
     public static void main(String[] args) {
-        int[] arr = {1, 2};
+        int[] arr = {2, 2};
         int[] clone = shallowCopy(arr);
+        int[] arr2 = deepCopy(arr);
         clone[0] = 500;
 
         for (int el : arr) {
-            System.out.println(el + " ");
+            System.out.print(el + " ");
+        }
+
+        System.out.println();
+        for (int el : arr2) {
+            System.out.print(el + " ");
         }
     }
 
