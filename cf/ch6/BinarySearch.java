@@ -3,7 +3,7 @@ package gr.aueb.cf.ch6;
 public class BinarySearch {
 
     public static void main(String[] args) {
-        int[] arr = {1, 2, 3, 6, 9, 12, 45, 67, 89};
+        int[] arr = {1, 2, 3};
         int low = 0;
         int high = arr.length -1;
         int position = 0;
