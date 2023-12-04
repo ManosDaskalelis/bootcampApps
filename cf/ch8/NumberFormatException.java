@@ -21,7 +21,7 @@ public class NumberFormatException {
         }
 
         num = Integer.parseInt(inputStr);
-        System.out.println("Input num: " + inputStr);
+        System.out.println("Input num: " + num);
     }
 
     /**
