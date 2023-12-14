@@ -13,7 +13,7 @@ public class BufferedReaderApp {
     public static void main(String[] args) {
         StringBuilder sb = new StringBuilder();
 
-        try (BufferedReader bf = new BufferedReader(new FileReader("C:/tmp/f-reader.txt"))) {
+        try (BufferedReader bf = new BufferedReader(new FileReader("C:\\Users\\Manos\\Desktop\\1233232323.txt"))) {
             String line = "";
 
             while ((line = bf.readLine()) != null) {
